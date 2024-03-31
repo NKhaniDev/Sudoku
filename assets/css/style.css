@@ -45,3 +45,27 @@
     transform: scale(1.1);
 }
 
+/* style-how to play button */
+
+.how-btn{
+    font-size: 2rem;
+    padding: 10px 0;
+    width: 15rem;
+    height: 5rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border:none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/* hover-how to play button */
+.play-btn:hover{
+    cursor:pointer;
+    background-color: #46332a;
+    transition: transform 200ms;
+    transform: scale(1.1);
+}
