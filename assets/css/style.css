@@ -116,3 +116,13 @@
 
     text-align: center;
 }
+/* styling board and digit(credit:https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s)*/
+#board {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+
+}
