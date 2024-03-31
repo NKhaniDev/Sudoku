@@ -20,6 +20,14 @@ document.addEventListener("DOMContentLoaded", function(){
 
 });
 
+// generating 3 span elemnt including life class
 
+let LivesContainer=document.getElementById("lives");
+for(let j=0; j<3;j++){
+    let span =document.createElement("span");
+    span.className="life";
+    LivesContainer.appendChild(span);
+    
+}
 
 
