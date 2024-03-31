@@ -81,16 +81,19 @@
 }
 
 
+/*styling modal section for how to play*/
 .modal{
     display: none;
     position: fixed;
     z-index: 1;
-   
     overflow: auto;
+    width: 100%;
+    height: 100%;
 }  
 
 .modal-content{
     background-color: white;
     margin: 100px;
     padding: 20px;
+    
 }
