@@ -1,3 +1,9 @@
+/*background*/
+*{
+    background-color: #e49918;
+}
+
+
 
 /* style the header */
 .all-h{
@@ -43,7 +49,7 @@
     cursor:pointer;
     background-color: #46332a;
     transition: transform 200ms;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /* style-how to play button */
@@ -65,9 +71,9 @@
     
 }
 /* hover-how to play button */
-.play-btn:hover{
+.how-btn:hover{
     cursor:pointer;
     background-color: #46332a;
     transition: transform 200ms;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
