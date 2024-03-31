@@ -27,7 +27,23 @@ for(let j=0; j<3;j++){
     let span =document.createElement("span");
     span.className="life";
     LivesContainer.appendChild(span);
-    
+
 }
+// initial numbers and the solution for puzzle
+var board = '6------7------5-2------1---362----81--96-----71--9-4-5-2---651---78----345-------';
+var solution ='685329174971485326234761859362574981549618732718293465823946517197852643456137298';
+// function to chnge the series of numbers to the array of rows
+
+function convertToSudokuRows(puzzleString){
+    let size= 9;
+    let rows=[];
+    for (let i = 0; i<puzzleString.length; i+=size ){
+        rows.push(puzzleString.substring(i , i + size));
+    }
+    return rows;
+}
+
+var board = convertToSudokuRows(board)
+var solution = convertToSudokuRows(solution)
 
 
