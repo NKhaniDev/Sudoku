@@ -1,3 +1,5 @@
+
+/* style the header */
 .all-h{
     display:flex ;
     flex-direction: column;
@@ -6,10 +8,22 @@
     height: 40vh;
     text-align: center;
 }
-
+/* style the logo */
 .logo{
     display: block;
     justify-content: center;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+}
+/* style play button */
+.play-btn{
+
+    padding: 10px 0;
+    width: 15rem;
+    height: 5rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border:none;
 }
