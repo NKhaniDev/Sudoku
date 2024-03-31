@@ -110,4 +110,9 @@
     border-radius: 50%;
     background-color: green;
     margin-left: 5px;
+    
+}
+#lives{
+
+    text-align: center;
 }
