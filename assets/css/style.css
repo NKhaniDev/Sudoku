@@ -1,4 +1,11 @@
-
+.all-h{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    text-align: center;
+}
 
 .logo{
     display: block;
