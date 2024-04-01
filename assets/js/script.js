@@ -93,7 +93,7 @@ function setGame(){
           }
           //adding class for the 3rd and 6th column to make the lines thicker
           if (c===2 || c===5){
-            tile.classList.add("horizontal-line");
+            tile.classList.add("vertical-line");
           }
           tile.addEventListener("click",selectTile);
           tile.classList.add("tile");
