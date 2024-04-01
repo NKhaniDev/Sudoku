@@ -162,3 +162,14 @@ function gameOver(){
         window.location.href = 'index.html'; 
     }, 2000);
 }
+
+
+//adding event listner for different actions inside exit modal
+
+document.getElementById("exitGameBtn").addEventListener("click",showExitModal);
+document.getElementById("resumeBtn").addEventListener("click",closeExitModal);
+document.getElementById("resumeCross").addEventListener("click",closeExitModal);
+document.getElementById("resetBtn").addEventListener("click",resetGame);
+document.getElementById("resetBtn").addEventListener("click",function(){
+    window.location.herf = "index.html";
+});
