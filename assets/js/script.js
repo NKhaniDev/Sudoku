@@ -123,8 +123,8 @@ function selectTile(){
         }
         // making a coordinate for the tiles for comparing with the solution
         let coords = this.id.split("-");
-        let r = parseInt(coord[0]);
-        let c = parseInt(coord[1]);
+        let r = parseInt(coords[0]);
+        let c = parseInt(coords[1]);
 
         //comparison
 
@@ -137,6 +137,7 @@ function selectTile(){
             if(errors<3){
                 const lives =document.querySelectorAll(".life");
                 lives[errors].style.backgroundColor = "red";
+                errors++;
 
                 if (errors===3){
                     gameOver();
