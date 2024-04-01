@@ -126,7 +126,23 @@ function selectTile(){
         let r = parseInt(coord[0]);
         let c = parseInt(coord[1]);
 
-        
+        //comparison
+
+        if (solution[r][c] === numSelected.id){
+            this.innerText = numSelected.id;
+        }
+        // if is not match with the solution, change the color of the spans(.life) and increase the error
+        else{
+
+            if(errors<3){
+                const lives =document.querySelectorAll(".life");
+                lives[errors].style.backgroundColor = "red";
+
+                if (errors===3){
+                    gameOver();
+                }
+            }
+        }
 
 
 
