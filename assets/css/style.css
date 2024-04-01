@@ -198,6 +198,13 @@
     text-decoration: none;
     color:white;
     background: black;
-    border: none
+    border: none;
+    
 
+}
+.quit-resume:hover{
+    cursor:pointer;
+    background: #46332a;
+    transition: transform 150ms;
+    transform: scale(1.05);
 }
