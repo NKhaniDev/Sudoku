@@ -82,9 +82,14 @@ function setGame(){
           tile.id =r.toString()+"-"+c.toString();
           // fill the predefined numbers
           if (board[r][c] != "-"){
-            tile.innerText=board[r][c];
-           //adding class to change the color of the container for predefined numbers 
-           tile.classList.add("tile-start")
+             tile.innerText=board[r][c];
+             //adding class to change the color of the container for predefined numbers 
+             tile.classList.add("tile-start")
+          }
+
+          //adding class for the 3 and 6 row to make the lines thicker
+          if (r===2 || r===5){
+            tile.classList.add("horizontal-line");
           }
 
           tile.addEventListener("click",selectTile);
