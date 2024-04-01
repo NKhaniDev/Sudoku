@@ -164,6 +164,6 @@
 }
 
 /*styling the selected div while click happen*/
-.number-selected{
-    background-color: gray;
-}
+.number-selected {
+    background-color: rgb(78, 69, 175);
+} 

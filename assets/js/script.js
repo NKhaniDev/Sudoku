@@ -30,6 +30,9 @@ for(let j=0; j<3;j++){
 
 }
 
+var numSelected = null;
+var tileSelected = null;
+
 // initial numbers and the solution for puzzle
 var board = '6------7------5-2------1---362----81--96-----71--9-4-5-2---651---78----345-------';
 var solution ='685329174971485326234761859362574981549618732718293465823946517197852643456137298';
@@ -59,17 +62,18 @@ window.onload = function(){
 function setGame(){
     // adding the digits(1-9)-credit to: https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s
     // populating a div including id="digits"
-   for(let i=0; i<=9;i++) {
-       let number =document.createElement("div");
-       number.id=1;
-       number.innerText =i;
-       number.addEventListener("click", selectNumber);// when the numbers clicked the selectNumber function will activate
-       number.classList.add("number");
-       document.getElementById("digits").appendChild(number);
+    for (let i = 1; i<=9; i++){
+        
+        let number = document.createElement("div");
+        number.id=i;
+        number.innerText= i;
+        number.addEventListener("click",selectNumber);// when the numbers clicked the selectNumber function will activate
+        number.classList.add("number");
+        document.getElementById("digits").appendChild(number);
     }
 
-// making board -credit to: https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s
-// populating a div including id="numbers"
+    // making board -credit to: https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s
+    // populating a div including id="numbers"
 
    for (let r=0; r<9; r++){
        for (let c=0; c<9; c++){
@@ -81,6 +85,7 @@ function setGame(){
     }
 
 }
+
 
 // function for toggle numbers-credit to: https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s
 
