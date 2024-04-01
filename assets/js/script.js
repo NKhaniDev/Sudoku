@@ -87,11 +87,14 @@ function setGame(){
              tile.classList.add("tile-start")
           }
 
-          //adding class for the 3 and 6 row to make the lines thicker
+          //adding class for the 3rd and 6th row to make the lines thicker
           if (r===2 || r===5){
             tile.classList.add("horizontal-line");
           }
-
+          //adding class for the 3rd and 6th column to make the lines thicker
+          if (c===2 || c===5){
+            tile.classList.add("horizontal-line");
+          }
           tile.addEventListener("click",selectTile);
           tile.classList.add("tile");
           document.getElementById("board").append(tile);
