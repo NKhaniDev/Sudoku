@@ -149,3 +149,16 @@ function selectTile(){
 
     }
 }
+
+// game over function
+
+function gameOver(){
+    let modal = document.getElementById("gameOverModal");
+    modal.style.display = "block";
+
+    // adding timer- after game over move to index.html
+
+    setTimeout(function() {
+        window.location.href = 'index.html'; 
+    }, 2000);
+}
