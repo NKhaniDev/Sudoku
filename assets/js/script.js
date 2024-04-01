@@ -121,6 +121,10 @@ function selectTile(){
         if(this.innerText !=""){
             return
         }
+        // making a coordinate for the tiles for comparing with the solution
+        let coords = this.id.split("-");
+        let r = parseInt(coord[0]);
+        let c = parseInt(coord[1]);
 
         
 
