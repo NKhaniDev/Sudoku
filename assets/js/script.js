@@ -55,3 +55,17 @@ window.onload = function(){
 }
 
 
+
+function setGame(){
+// adding the digits(1-9)-credit to: https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s
+// populating a div including id="digits"
+   for(let i=0; i<=9;i++) {
+    let number =document.createElement("div");
+    number.id=1;
+    number.innerText =i;
+    number.classList.add("number");
+    document.getElementById("digits").appendChild(number);
+   }
+
+}
+
