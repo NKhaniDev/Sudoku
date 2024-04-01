@@ -82,3 +82,13 @@ function setGame(){
 
 }
 
+// function for toggle numbers-credit to: https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s
+
+function selectNumber(){
+    if (numSelected != null){
+        numSelected.classList.remove("number-selected");
+    }
+    numSelected = this;
+    numSelected.classList.add("number-selected");
+}
+
