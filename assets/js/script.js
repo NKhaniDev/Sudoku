@@ -63,6 +63,7 @@ function setGame(){
        let number =document.createElement("div");
        number.id=1;
        number.innerText =i;
+       number.addEventListener("click", selectNumber);// when the numbers clicked the selectNumber function will activate
        number.classList.add("number");
        document.getElementById("digits").appendChild(number);
     }
