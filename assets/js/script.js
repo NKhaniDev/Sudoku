@@ -30,6 +30,7 @@ for(let j=0; j<3;j++){
 
 }
 
+var errors =0;
 var numSelected = null;
 var tileSelected = null;
 
@@ -79,6 +80,14 @@ function setGame(){
        for (let c=0; c<9; c++){
           let tile= document.createElement("div");
           tile.id =r.toString()+"-"+c.toString();
+          // fill the predefined numbers
+          if (board[r][c] != "-"){
+            tile.innerText=board[r][c];
+           //adding class to change the color of the container for predefined numbers 
+           tile.classList.add("tile-start")
+          }
+
+          tile.addEventListener("click",selectTile);
           tile.classList.add("tile");
           document.getElementById("board").append(tile);
        }
@@ -97,3 +106,17 @@ function selectNumber(){
     numSelected.classList.add("number-selected");
 }
 
+// function for adding the selected number to the board-credit to: https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s
+
+function selectTile(){
+    if (numSelected){
+        if(this.innerText !=""){
+            return
+        }
+
+        
+
+
+
+    }
+}
