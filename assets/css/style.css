@@ -191,7 +191,7 @@
 /*styling exit button*/
 .quit-resume{
     font-size: 1.7rem;
-    padding: 10px;
+    padding: 10px 0;
     width: 450px;
     height: 48px;
     text-align: center;
@@ -199,6 +199,12 @@
     color:white;
     background: black;
     border: none;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    
+
     
 
 }
