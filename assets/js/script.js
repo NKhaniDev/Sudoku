@@ -57,15 +57,27 @@ window.onload = function(){
 
 
 function setGame(){
-// adding the digits(1-9)-credit to: https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s
-// populating a div including id="digits"
+    // adding the digits(1-9)-credit to: https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s
+    // populating a div including id="digits"
    for(let i=0; i<=9;i++) {
-    let number =document.createElement("div");
-    number.id=1;
-    number.innerText =i;
-    number.classList.add("number");
-    document.getElementById("digits").appendChild(number);
-   }
+       let number =document.createElement("div");
+       number.id=1;
+       number.innerText =i;
+       number.classList.add("number");
+       document.getElementById("digits").appendChild(number);
+    }
+
+// making board -credit to: https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s
+// populating a div including id="numbers"
+
+   for (let r=0; r<9; r++){
+       for (let c=0; c<9; c++){
+          let tile= document.createElement("div");
+          tile.id =r.toString()+"-"+c.toString();
+          tile.classList.add("tile");
+          document.getElementById("board").append(tile);
+       }
+    }
 
 }
 
