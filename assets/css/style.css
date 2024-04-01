@@ -167,3 +167,7 @@
 .number-selected {
     background-color: rgb(78, 69, 175);
 } 
+
+.tile-start{
+    background-color: gray;
+}
