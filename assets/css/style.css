@@ -286,3 +286,19 @@ p{
     transform: scale(1.05);
 
 }
+@media (max-width: 480px){
+    #lives,
+    #board,
+    #digits{
+        width:95%;
+        margin: 0 auto;
+    }
+
+    .life{
+        width: 30px;
+        height: 30px;
+        margin-left: 3px;
+    }
+
+    .tile{}
+}
