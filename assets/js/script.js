@@ -165,10 +165,10 @@ function gameOver(){
     let modal = document.getElementById("gameOverModal");
     modal.style.display = "block";
 
-    // adding timer- after game over move to index.html
+    // adding timer- after gameover move to index.html
 
     setTimeout(function() {
-        window.location.href = 'index.html'; 
+        window.location.href = "index.html"; 
     }, 2000);
 }
 
@@ -179,8 +179,8 @@ document.getElementById("exitGameBtn").addEventListener("click",showExitModal);
 document.getElementById("resumeBtn").addEventListener("click",closeExitModal);
 document.getElementById("resumeCross").addEventListener("click",closeExitModal);
 document.getElementById("resetBtn").addEventListener("click",resetGame);
-document.getElementById("exitBtn").addEventListener("click",function(){
-    window.location.herf = "index.html";
+document.getElementById("exitBtn").addEventListener("click", function() {
+    window.location.href = "index.html";
 });
 
 //appearing exit modal
