@@ -173,3 +173,22 @@ document.getElementById("resetBtn").addEventListener("click",resetGame);
 document.getElementById("resetBtn").addEventListener("click",function(){
     window.location.herf = "index.html";
 });
+
+//appearing exit modal
+function showExitModal(){
+    document.getElementById("exitModal").style.display="block";
+}
+
+//closing the modal(resume)
+
+function closeExitModal(){
+    document.getElementById("exitModal").style.display="none";
+}
+
+//reset the game
+
+function resetGame(){
+    closeExitModal();
+    setGame();
+    errors = 0
+}
