@@ -120,11 +120,14 @@
     border-radius: 50%;
     background-color: rgb(29, 74, 46);
     margin-left: 5px;
+
     
 }
 #lives{
 
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* styling board and digit(credit:https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s)*/
 #board {
@@ -133,7 +136,7 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    
+    background-color: black;
     border: 4px solid black;
 
 }
@@ -159,9 +162,16 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    
-    
+  
 
+}
+/*adding hover to tiles*/
+.tile:hover{
+    cursor: pointer;
+    background-color: blue;
+    transition: transfor 150ms;
+    transform: scale(1.05);
+    color: white;
 }
 
 .number{
@@ -209,11 +219,8 @@
 
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
     
-
-    
-
 }
 .quit-resume:hover{
     cursor:pointer;
