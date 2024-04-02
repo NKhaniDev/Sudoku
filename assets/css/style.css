@@ -290,9 +290,13 @@ p{
     #lives,
     #board,
     #digits{
-        width:95%;
+        width: 320px;;
         margin: 0 auto;
     }
+    #board{
+        height: 320px;
+    }
+
 
     .life{
         width: 30px;
@@ -301,12 +305,16 @@ p{
     }
 
     .tile{
-        width: calc((100%/9)-2px);
-        height: calc((100%/9)-2px);
+        width: 33px;
+        height: 33px;
     }
 
     .number{
-        width: calc((100%/9)-4px);
-        width: calc((100%/9)-4px);
+        width: 30;
+        width: 30;
     }
+    .quit-resume{
+        width: 320px;
+    }
+
 }
