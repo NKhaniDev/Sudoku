@@ -165,10 +165,11 @@
   
 
 }
+
 /*adding hover to tiles*/
 .tile:hover{
     cursor: pointer;
-    background-color: blue;
+    background-color: rgb(9, 68, 85);
     transition: transfor 150ms;
     transform: scale(1.05);
     color: white;
@@ -188,6 +189,15 @@
     
 
 }
+/*adding hover to numbers*/
+.number:hover{
+    cursor: pointer;
+    background-color: rgb(9, 68, 85);
+    transition: transfor 150ms;
+    transform: scale(1.05);
+    color: white;
+}
+
 
 /*styling the selected div while click happen*/
 .number-selected {
