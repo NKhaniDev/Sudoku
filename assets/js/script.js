@@ -145,7 +145,7 @@ function selectTile(){
 
             if(errors<3){
                 const lives =document.querySelectorAll(".life");
-                lives[errors].style.backgroundColor = "red";
+                lives[errors].style.backgroundColor = "rgb(146, 7, 7)";
                 errors++;
                 // game over
                 if (errors===3){

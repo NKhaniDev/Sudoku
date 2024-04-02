@@ -1,6 +1,7 @@
 /*background*/
 *{
     background-color: #e49918;
+    text-align: center;
 }
 
 
@@ -117,7 +118,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: green;
+    background-color: rgb(29, 74, 46);
     margin-left: 5px;
     
 }
@@ -128,21 +129,23 @@
 /* styling board and digit(credit:https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s)*/
 #board {
     width: 450px;
-    height: 450px;
+    height: 449px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    
+    border: 4px solid black;
 
 }
 
 #digits {
-    width: 450px;
+    width: 448px;
     height: 50px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    
+    
 }
 
 /*styling tile and number class which are related to the div populated by script(credit:https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s)*/
@@ -156,29 +159,33 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    
+    
 
 }
 
 .number{
-    width: 44px;
-    height: 44px;
-    border: 1px solid black;
+    width: 42px;
+    height: 42px;
+    border: 2px solid black;
     margin: 2px;
     font-size: 20px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-content: center;
+    background-color: rgb(82, 179, 206);
+    
 
 }
 
 /*styling the selected div while click happen*/
 .number-selected {
-    background-color: rgb(78, 69, 175);
+    background-color: rgb(7, 84, 146);
 } 
 
 .tile-start{
-    background-color: gray;
+    background-color: rgb(82, 179, 206);
 }
 
 .vertical-line{
