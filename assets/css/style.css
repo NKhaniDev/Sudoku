@@ -300,5 +300,13 @@ p{
         margin-left: 3px;
     }
 
-    .tile{}
+    .tile{
+        width: calc((100%/9)-2px);
+        height: calc((100%/9)-2px);
+    }
+
+    .number{
+        width: calc((100%/9)-4px);
+        width: calc((100%/9)-4px);
+    }
 }
