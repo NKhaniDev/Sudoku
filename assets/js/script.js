@@ -58,9 +58,18 @@ window.onload = function(){
     setGame();
 }
 
+//cleaning the board(for reset function to work properly)
+document.getElementById("digits").innerText="";
+document.getElementById("board").innerText="";
+
 
 
 function setGame(){
+
+    //cleaning the board(for reset function to work properly)
+    document.getElementById("digits").innerText="";
+    document.getElementById("board").innerText="";
+
     // adding the digits(1-9)-credit to: https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s
     // populating a div including id="digits"
     for (let i = 1; i<=9; i++){
@@ -170,7 +179,7 @@ document.getElementById("exitGameBtn").addEventListener("click",showExitModal);
 document.getElementById("resumeBtn").addEventListener("click",closeExitModal);
 document.getElementById("resumeCross").addEventListener("click",closeExitModal);
 document.getElementById("resetBtn").addEventListener("click",resetGame);
-document.getElementById("resetBtn").addEventListener("click",function(){
+document.getElementById("exitBtn").addEventListener("click",function(){
     window.location.herf = "index.html";
 });
 
@@ -190,5 +199,5 @@ function closeExitModal(){
 function resetGame(){
     closeExitModal();
     setGame();
-    errors = 0
+    errors = 0;
 }
