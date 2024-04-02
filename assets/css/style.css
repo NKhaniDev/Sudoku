@@ -148,8 +148,8 @@ p{
 }
 /* styling board and digit(credit:https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s)*/
 #board {
-    width: 468px;
-    height: 468px;
+    width: 475px;
+    height: 475px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
