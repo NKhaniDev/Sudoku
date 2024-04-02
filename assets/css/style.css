@@ -153,13 +153,13 @@ p{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
-    border: 4px solid black;
+    
+   
 
 }
 
 #digits {
-    width: 448px;
+    width: 475px;
     height: 50px;
     margin: 0 auto;
     display: flex;
@@ -193,8 +193,8 @@ p{
 }
 
 .number{
-    width: 42px;
-    height: 42px;
+    width: 43px;
+    height: 43px;
     border: 2px solid black;
     margin: 2px;
     font-size: 20px;
@@ -236,7 +236,7 @@ p{
 .quit-resume{
     font-size: 1.7rem;
     padding: 10px 0;
-    width: 450px;
+    width: 400px;
     height: 48px;
     text-align: center;
     text-decoration: none;
