@@ -108,7 +108,13 @@
 
 .close {
 
-    float:right
+    float:right;
+    color: black;
+    background-color: white;
+    font-size: x-large;
+}
+.close:hover{
+    cursor:pointer;
 }
 
 p{
