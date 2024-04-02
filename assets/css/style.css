@@ -141,7 +141,8 @@ p{
     
 }
 #lives{
-    width: 100%;
+   width: 475px;
+   margin: 0 auto;
    display: flex;
    justify-content: center;
    align-items: center;
