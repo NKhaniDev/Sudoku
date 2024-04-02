@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function(){
        modal.style.display="none";
     };
 
-    windows.onclick= function(event){
+    window.onclick= function(event){
       if(event.target== modal){
           modal.style.display="none";
        }
@@ -200,4 +200,9 @@ function resetGame(){
     closeExitModal();
     setGame();
     errors = 0;
+    const lives =document.querySelectorAll(".life");
+    lives[errors].style.backgroundColor = "rgb(29, 74, 46)";
+    errors =1;
+    lives[errors].style.backgroundColor = "rgb(29, 74, 46)";
+    errors= 0;
 }
