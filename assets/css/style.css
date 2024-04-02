@@ -226,7 +226,6 @@
     color:white;
     background: black;
     border: none;
-
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -237,4 +236,33 @@
     background: #46332a;
     transition: transform 150ms;
     transform: scale(1.05);
+}
+
+/*styling exit modal buttons*/
+#resumeBtn,
+#resetBtn,
+#exitBtn{
+    font-size: 1.7rem;
+    
+    width: 200px;
+    height: 48px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    background: black;
+    border: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+#resumeBtn:hover,
+#resetBtn:hover,
+#exitBtn:hover{
+    cursor:pointer;
+    background: #46332a;
+    transition: transform 150ms;
+    transform: scale(1.05);
+
 }
