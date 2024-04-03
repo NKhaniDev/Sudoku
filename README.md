@@ -148,10 +148,11 @@ In the future,
   I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools for desktop](assets/readme-assets/Desktop-Lighthouse.png)    [Lighthouse DevTools for mobile](assets/readme-assets/mobile-Lighthouse.png)
 
 ### Bugs
-* **Solved bugs**
 
-  Before implementing the project I had several experiments and practice for the project,Several bugs were experienced during development; here are some examples:
-  * I used three IDs with the same attribute.
+
+  Prior to the project's execution, numerous experimental trials and preparatory activities were undertaken. Throughout the development process, various bugs emerged; the following are a few instances:
+
+  * I aimed to incorporate a border around the board, which consists of a single div containing 81 cell divs arranged using flexbox and wrap. However, due to the layout's sensitivity to dimensions—where even a single pixel could displace the ninth cell to a new row, causing disarray—I ultimately chose to forego adding a border to the board.
   * Responsiveness was my main challenge, but my mentor gave me some hints, and I was able to fix them.
   * I wanted to use background colors or images, but my pictures in the home and services sections weren't transparent enough. As a solution, I kept the background white.
 
