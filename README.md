@@ -35,7 +35,7 @@ Sudoku is a popular game that helps people keep their minds busy during their sp
 
 ## Demo
 
-![Website look on different devices](assets/README-assets/demo.png)
+![Website look on different devices](assets/readme-assets/demo.png)
 
 ### A live demo to the website can be found [here](https://nkhanidev.github.io/sudoku/)
 
@@ -67,8 +67,9 @@ The website is designed to be clear and simple.
 
 ### Skeleten
 The wireframe creation utilized Balsamiq.
-My wireframe design in the [(pdf format)](assets/readme-assets/wireFrame.pdf)
+My wireframe design:
 
+![Wireframe](assets/readme-assets/wireframe.png)
 
 
 ## Technologies
@@ -80,13 +81,6 @@ My wireframe design in the [(pdf format)](assets/readme-assets/wireFrame.pdf)
 
 ## Features
 ### Existing Features
-**home**
-  - The page features a top-fixed navigation bar, with the logo on the left linking to the home page. 
-  - Navigation options are aligned to the right, linking to various sections within the same page, including Home, Services, About, and Contact.
-  - The design ensures the text color contrasts with the background for readability, and a hover effect highlights the currently viewed section, enhancing user experience.
-
-
-
 
 * **Home**
   - Used a flat background color. Included is the logo and a message to welcome you to the Sudoku Game.
@@ -95,9 +89,9 @@ My wireframe design in the [(pdf format)](assets/readme-assets/wireFrame.pdf)
     - How to play button: open the modal to show the guid for playing sudoku.
 
 
-    ![home page](assets/README-assets/homepage.png)
+    ![home page](assets/readme-assets/homepage.png)
 
-    ![how to play](assets/README-assets/Guid.png)
+    ![how to play](assets/readme-assets/Guid.png)
 
 
 * **Game**
@@ -115,28 +109,30 @@ My wireframe design in the [(pdf format)](assets/readme-assets/wireFrame.pdf)
 
   
 
-![Game page](assets/README-assets/Game.png)
+![Game page](assets/readme-assets/Game.png)
 
 
-![Mistake](assets/README-assets/errors.png)
+![Mistake](assets/readme-assets/errors.png)
 
 
-![Number selection](assets/README-assets/numbers.png)
+![Number selection](assets/readme-assets/numbers.png)
 
 
-![Game over](assets/README-assets/Gameover.png)
+![Game over](assets/readme-assets/Gameover.png)
 
 
-![Exit button](assets/README-assets/exit.png)
+![Exit button](assets/readme-assets/exit.png)
 
 
 
 
 ### Features Left to Implement
 In the future, 
-* I would like to introduce a section for custom CAD design for customers, where they can sign up and create their designs online.
-* The website's performance needs to be improved.
-* I need to create much better pictures to provide deeper insight into what Mech3D is capable of doing.
+* The game will automatically generate numbers using specific algorithms, creating puzzles of varying difficulty levels: easy, medium, and hard.
+* An automatic solver will be available for puzzles, especially when the initial numbers are determined through the algorithm.
+* A timer could serve as an additional condition for ending the game.
+* A feature to delete numbers that have been input by the player will be included.
+
 
 
 ## Testing
@@ -144,13 +140,13 @@ In the future,
 
 ### Validator Testing
 * **HTML**
-  No errors were returned when passing through the official [W3C validator](assets/README-assets/html-validator.png)
+  No errors were returned when passing through the official [W3C validator](assets/readme-assets/html-validator.png)
 
 * **CSS**
-  No errors were found when passing through the official [(Jigsaw) validator](assets/README-assets/css-validator.png)
+  No errors were found when passing through the official [(Jigsaw) validator](assets/readme-assets/css-validator.png)
   
 * **Accessibility**
-  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools for desktop](assets/README-assets/Desktop-Lighthouse.png)    [Lighthouse DevTools for mobile](assets/README-assets/mobile-Lighthouse.png)
+  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools for desktop](assets/readme-assets/Desktop-Lighthouse.png)    [Lighthouse DevTools for mobile](assets/readme-assets/mobile-Lighthouse.png)
 
 ### Bugs
 * **Solved bugs**
