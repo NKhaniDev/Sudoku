@@ -96,34 +96,29 @@ My wireframe design:
 
 * **Game**
   - has four section:
+
+    ![Game page](assets/readme-assets/Game.png)
+
     - lives: Players are permitted three errors. At the top of the page, three green circles are displayed; each error turns a circle red.
 
+    ![Mistake](assets/readme-assets/errors.png)
 
     - Board:  Positioned immediately below the lives section is a 9x9 grid with a total of 81 cells. It comes pre-populated with certain numbers, and players are tasked with filling in the remaining cells, taking into account the numbers already provided.
+  
 
     - Number Selection: Adjacent to the board, there's a separate grid that presents numbers one through nine. Players can choose these numbers to place onto the board.
 
+      ![Number selection](assets/readme-assets/numbers.png)
+
     - Exit button: When clicked, this brings up a modal with options to resume the game, reset it, or return to the homepage.
+
+    ![Exit button](assets/readme-assets/exit.png)
 
     - Gameover: Upon making three mistakes, the game halts, a modal appears to inform the player of the game over status, and after two seconds, the player is automatically redirected to the homepage.
 
+    ![Game over](assets/readme-assets/Gameover.png)
+
   
-
-![Game page](assets/readme-assets/Game.png)
-
-
-![Mistake](assets/readme-assets/errors.png)
-
-
-![Number selection](assets/readme-assets/numbers.png)
-
-
-![Game over](assets/readme-assets/Gameover.png)
-
-
-![Exit button](assets/readme-assets/exit.png)
-
-
 
 
 ### Features Left to Implement
