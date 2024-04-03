@@ -286,6 +286,8 @@ p{
     transform: scale(1.05);
 
 }
+
+/*media query for mobile devices*/
 @media (max-width: 480px){
     #lives,
     #board,
