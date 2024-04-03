@@ -72,7 +72,7 @@ My wireframe design:
 
 
 ### Color palette
-Colors have been used in this projectL
+Colors have been used in this project:
 
 ![Wireframe](assets/readme-assets/Color-pallete.png)
 
@@ -153,8 +153,8 @@ In the future,
   Prior to the project's execution, numerous experimental trials and preparatory activities were undertaken. Throughout the development process, various bugs emerged; the following are a few instances:
 
   * I aimed to incorporate a border around the board, which consists of a single div containing 81 cell divs arranged using flexbox and wrap. However, due to the layout's sensitivity to dimensions—where even a single pixel could displace the ninth cell to a new row, causing disarray—I ultimately chose to forego adding a border to the board.
-  * Responsiveness was my main challenge, but my mentor gave me some hints, and I was able to fix them.
-  * I wanted to use background colors or images, but my pictures in the home and services sections weren't transparent enough. As a solution, I kept the background white.
+
+  * I encountered an error in the DevTools, and I couldn't fix it. The error is: 'Uncaught TypeError: Cannot read properties of null (reading 'appendChild')'. I spent a bit of time trying to fix it, but I didn't have enough time to continue and debug it properly.
 
 
 
