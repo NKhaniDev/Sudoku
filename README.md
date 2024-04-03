@@ -148,15 +148,15 @@ In the future,
   No errors were returned when passing through the official [W3C validator](assets/README-assets/html-validator.png)
 
 * **CSS**
-  No errors were found when passing through the official [(Jigsaw) validator](assets/README-assets/W3C.png)
+  No errors were found when passing through the official [(Jigsaw) validator](assets/README-assets/css-validator.png)
   
 * **Accessibility**
-  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools](assets/README-assets/accessibility.png)
+  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools for desktop](assets/README-assets/Desktop-Lighthouse.png)    [Lighthouse DevTools for mobile](assets/README-assets/mobile-Lighthouse.png)
 
 ### Bugs
 * **Solved bugs**
 
- Several bugs were experienced during development; here are some examples:
+  Before implementing the project I had several experiments and practice for the project,Several bugs were experienced during development; here are some examples:
   * I used three IDs with the same attribute.
   * Responsiveness was my main challenge, but my mentor gave me some hints, and I was able to fix them.
   * I wanted to use background colors or images, but my pictures in the home and services sections weren't transparent enough. As a solution, I kept the background white.
@@ -164,7 +164,7 @@ In the future,
 
 
 ## Deployment
-To deploy a site on GitHub Pages, start by going to the repository's settings, then to the "Pages" section under "Code and Automation." Choose "Deploy from a branch" as the source, select the "main" branch, and save your changes. The website's link will appear at the top of the page. Changes pushed to the main branch will automatically update the deployed site.
+To deploy a site on GitHub Pages, start by going to the repository's settings, then to the "Pages" section under "Code and Automation." Choose "Deploy from a branch" as the source, select the "main" branch, and save my changes. The website's link will appear at the top of the page. Changes pushed to the main branch will automatically update the deployed site.
 
 
 ## Credits
