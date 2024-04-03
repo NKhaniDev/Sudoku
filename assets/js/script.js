@@ -44,28 +44,25 @@ function convertToSudokuRows(puzzleString){
 var board = convertToSudokuRows(board)
 var solution = convertToSudokuRows(solution)
 
+
+// populating 3 span elemnt including life class
+let livesContainer=document.getElementById("lives-1");
+for(let j=0; j<3;j++){
+    let span = document.createElement("span");
+    span.className="life";
+    livesContainer.appendChild(span);
+
+}
+
+
 // starting the game-credit to: https://www.youtube.com/watch?v=S4uRtTb8U-U&t=648s
 
 window.onload = function(){
     setGame();
 }
 
-//cleaning the board(for reset function to work properly)
-document.getElementById("digits").innerText="";
-document.getElementById("board").innerText="";
-
-
 
 function setGame(){
-
-    // populating 3 span elemnt including life class
-    let livesContainer=document.getElementById("lives-1");
-    for(let j=0; j<3;j++){
-        let span = document.createElement("span");
-        span.className="life";
-        livesContainer.appendChild(span);
-
-    }
 
 
     //cleaning the board(for reset function to work properly)
@@ -89,27 +86,27 @@ function setGame(){
 
    for (let r=0; r<9; r++){
        for (let c=0; c<9; c++){
-          let tile= document.createElement("div");
-          tile.id =r.toString()+"-"+c.toString();
-          // fill the predefined numbers
-          if (board[r][c] != "-"){
+            let tile= document.createElement("div");
+            tile.id =r.toString()+"-"+c.toString();
+            // fill the predefined numbers
+            if (board[r][c] != "-"){
              tile.innerText=board[r][c];
              //adding class to change the color of the container for predefined numbers 
              tile.classList.add("tile-start")
-          }
+            }
 
-          //adding class for the 3rd and 6th row to make the lines thicker
-          if (r===2 || r===5){
+            //adding class for the 3rd and 6th row to make the lines thicker
+            if (r===2 || r===5){
             tile.classList.add("horizontal-line");
-          }
-          //adding class for the 3rd and 6th column to make the lines thicker
-          if (c===2 || c===5){
+            }
+            //adding class for the 3rd and 6th column to make the lines thicker
+            if (c===2 || c===5){
             tile.classList.add("vertical-line");
-          }
-          tile.addEventListener("click",selectTile);
-          tile.classList.add("tile");
-          document.getElementById("board").append(tile);
-       }
+            }
+            tile.addEventListener("click",selectTile);
+            tile.classList.add("tile");
+            document.getElementById("board").append(tile);
+        }
     }
 
 }
@@ -191,18 +188,13 @@ function showExitModal(){
 }
 
 //closing the modal(resume)
-
 function closeExitModal(){
     document.getElementById("exitModal").style.display="none";
 }
 
 //reset the game
-
 function resetGame(){
     closeExitModal();
-    while (livesContainer.firstChild) {
-        livesContainer.removeChild(livesContainer.firstChild);
-    }
     setGame();
     errors = 0;
     const lives =document.querySelectorAll(".life");
