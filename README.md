@@ -72,7 +72,7 @@ My wireframe design:
 
 
 ### Color palette
-Color have use in this projectL
+Colors have been used in this projectL
 
 ![Wireframe](assets/readme-assets/Color-pallete.png)
 
