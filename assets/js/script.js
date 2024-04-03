@@ -20,17 +20,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 });
 
-// populating 3 span elemnt including life class
 
-let livesContainer=document.getElementById("lives-1");
-
-
-for(let j=0; j<3;j++){
-    let span = document.createElement("span");
-    span.className="life";
-    livesContainer.appendChild(span);
-
-}
 
 var errors =0;
 var numSelected = null;
@@ -67,6 +57,16 @@ document.getElementById("board").innerText="";
 
 
 function setGame(){
+
+    // populating 3 span elemnt including life class
+    let livesContainer=document.getElementById("lives-1");
+    for(let j=0; j<3;j++){
+        let span = document.createElement("span");
+        span.className="life";
+        livesContainer.appendChild(span);
+
+    }
+
 
     //cleaning the board(for reset function to work properly)
     document.getElementById("digits").innerText="";
@@ -200,6 +200,9 @@ function closeExitModal(){
 
 function resetGame(){
     closeExitModal();
+    while (livesContainer.firstChild) {
+        livesContainer.removeChild(livesContainer.firstChild);
+    }
     setGame();
     errors = 0;
     const lives =document.querySelectorAll(".life");

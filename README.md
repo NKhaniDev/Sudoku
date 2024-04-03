@@ -41,7 +41,7 @@ Sudoku is a popular game that helps people keep their minds busy during their sp
 
 
 ## UX
-The users are the players who are interested in playing the quiz game.
+The users are the players who are interested in playing the puzzle game.
 
 ## User stories
 As a puzzle enthusiast who enjoys mental challenges, I want to access a variety of Sudoku puzzles online so that I can test my problem-solving skills and engage in cognitive exercises.
