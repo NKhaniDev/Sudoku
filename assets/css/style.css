@@ -312,11 +312,13 @@ p{
     .tile{
         width: 33px;
         height: 33px;
+        font-size: 30px;
     }
 
     .number{
         width: 30;
         width: 30;
+        font-size: 20px;
     }
     .quit-resume{
         width: 320px;
