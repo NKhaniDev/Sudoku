@@ -56,7 +56,6 @@ The ultimate goal is to find a digital Sudoku space that keeps users active duri
 - User Interaction: An interface that's easy to use, whether on desktop or mobile devices.
 
 ### Structure
-The Mech3D website has a single, long, scrolling page design. My structure features a fixed top navigation that connects the user to each of the sections from anywhere on the page. 
 
 **Website Sections:**
 1. **_Home / Landing page:_** A simple welcome page allows users to navigate to the guide section and the game page.
@@ -71,6 +70,11 @@ My wireframe design:
 
 ![Wireframe](assets/readme-assets/wireframe.png)
 
+
+### Color palette
+Color have use in this projectL
+
+![Wireframe](assets/readme-assets/Color-pallete.png)
 
 ## Technologies
 1. HTML - To create a basic site
