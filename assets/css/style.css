@@ -192,7 +192,6 @@ p{
 .tile:hover{
     cursor: pointer;
     background-color: rgb(9, 68, 85);
-    transition: transfor 150ms;
     transform: scale(1.05);
     color: white;
 }
@@ -216,7 +215,6 @@ p{
 .number:hover{
     cursor: pointer;
     background-color: rgb(9, 68, 85);
-    transition: transfor 150ms;
     transform: scale(1.05);
     color: white;
 }
