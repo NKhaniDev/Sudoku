@@ -22,13 +22,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
 // populating 3 span elemnt including life class
 
-let livesContainer=document.getElementById("lives");
+let livesContainer=document.getElementById("lives-1");
 
-while (livesContainer.firstChild){
-    livesContainer.removeChild(livesContainer.firstChild);
-}
+
 for(let j=0; j<3;j++){
-    let span =document.createElement("span");
+    let span = document.createElement("span");
     span.className="life";
     livesContainer.appendChild(span);
 
